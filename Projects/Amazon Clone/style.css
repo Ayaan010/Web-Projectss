@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.border {
+  border: 2px transparent;
+}
+
+.border:hover {
+  border: 1px solid white;
+}
+.navlogo {
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  /* border: 2px transparent; */
+}
+
+/* .navlogo:hover{
+    border: 1px solid white;
+} */
+.logo {
+  height: 50px;
+  width: 100%;
+  background-image: url(23.png);
+  background-size: cover;
+}
+
+/* Box 2 */
+
+.navaddress {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.address1 {
+  font-size: 0.85rem;
+  color: #cccccc;
+  margin-left: 10px;
+}
+
+.address2 {
+  font-size: 1rem;
+  margin: 3px;
+}
+.addressicon {
+  display: flex;
+  align-items: center;
+}
+
+/* Box 3 */
+
+.navsearch {
+  width: 620px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  background-color: aquamarine;
+  border-radius: 3px;
+}
+.navsearch:hover {
+  border: 3px solid #febd68;
+}
+
+.searchselect {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #e6e6e6;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  border: none;
+}
+
+.searchinput {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.searchicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 45px;
+  background-color: #febd68;
+  color: #0f1111;
+}
+
+/* BOX4 and 5 */
+
+.nav1 {
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.nav2 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navcart i {
+  font-size: 1.7rem;
+}
+.navcart {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Panel */
+
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.paneloption {
+  width: 65%;
+}
+.panelall {
+  cursor: pointer;
+}
+.paneloption a {
+  text-decoration: none;
+  display: inline;
+  color: white;
+
+  font-size: 0.85rem;
+  margin-left: 10px;
+}
+
+.panneldeals {
+  cursor: pointer;
+}
+
+/* Hero Section */
+
+.herosec {
+  background-image: url(/banner1.jpg);
+  height: 380px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.heromess {
+  width: 80%;
+  background-color: white;
+  height: 35px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 35px;
+  border-radius: 4px;
+}
+
+.heromess a {
+  text-decoration: none;
+  color: #007185;
+}
+
+/* Content/Shop Section */
+.shopsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-image: url(/back.jpg);
+  background-size: cover;
+}
+
+.box {
+  height: 300px;
+  width: 23%;
+  /* border: 2px solid black; */
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.b1img {
+  background-image: url(/box1img.jpg);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+.b1img:hover {
+  transform: scaleX(-1);
+}
+
+.boxcontent {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.box1 p {
+  margin-top: 10px;
+  color: #02363f;
+  font-weight: 600;
+}
+
+.b2img {
+  background-image: url(/furniture.jpg);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+.b2img:hover {
+  transform: scaleX(-1);
+}
+
+.b3img {
+  background-image: url(/footwear.jpg);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+.b3img:hover {
+  background-image: url(/Footwear.webp);
+}
+
+.b4img {
+  background-image: url(/electronics.jpg);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+
+.b4img:hover {
+  transform: scaleX(-1);
+}
+
+.b5img {
+  background-image: url(/Toys.jpg);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+
+.b5img:hover {
+  transform: scaleX(-1);
+}
+
+.b6img {
+  background-image: url(/Jewelry.jpeg);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+
+.b6img:hover {
+  transform: scaleX(-1);
+}
+
+.b7img {
+  background-image: url(/Laptop.jpg);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+
+.b7img:hover {
+  transform: scaleX(-1);
+}
+
+.b8img {
+  background-image: url(/Backpack.webp);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+
+.b8img:hover {
+  transform: scaleX(-1);
+}
+
+.b9img {
+  background-image: url(/Med.avif);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+
+.b9img:hover {
+  transform: scaleX(-1);
+}
+
+.b10img {
+  background-image: url(/Computer\ Peripherals.jpg);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+
+.b10img:hover {
+  transform: scaleX(-1);
+}
+
+.b11img {
+  background-image: url(/watches.webp);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+
+.b11img:hover {
+  transform: scaleX(-1);
+}
+
+.b12img {
+  background-image: url(/utensils.jpg);
+  height: 250px;
+  /* width: 80%; */
+  margin-top: 10px;
+  /* margin-right: 20px; */
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all;
+}
+
+.b12img:hover {
+  transform: scaleX(-1);
+}
+
+.footp1 {
+  margin-top: 10px;
+  height: 45px;
+  background-color: #37475a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+
+.footp1:hover {
+  background-color: #4e6077;
+}
+/* Footer */
+.footp2 p {
+  font-weight: 600;
+}
+.footp2 a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  text-decoration: none;
+  color: #dddddd;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+.footp2 {
+  height: 300px;
+  padding-top: 20px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footp3 {
+  background-color: #222f3d;
+  border-top: 0.1px solid #425569;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  /* margin-left: 20px; */
+  height: 50px;
+  width: 100px;
+  background-image: url(23.png);
+  background-size: cover;
+}
+
+.footp4 {
+  font-size: 0.75rem;
+  height: 70%;
+  background-color: #131a22;
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.footp4an a {
+  padding-top: 25px;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+.footp4p {
+  padding-top: 5px;
+  /* text-align: center; */
+}
